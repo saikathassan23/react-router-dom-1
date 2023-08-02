@@ -8,7 +8,11 @@ const Friend = (props) => {
       <h3>{name}</h3>
       <p>{email}</p>
       <div>
-        <Link to={`/friendDetails/${id}`}>Show Details</Link>
+        <Link to={`/friendDetails/${id}`}>
+          <button className='bg-orange-400 px-6 py-3 rounded-xl text-white'>
+            Show Details
+          </button>
+        </Link>
       </div>
     </div>
   );
