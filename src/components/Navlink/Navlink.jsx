@@ -1,8 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-const Navlink = (props) => {
-  const { to, text } = props;
-  console.log(props);
+const Navlink = ({to, text}) => {
   return (
     <NavLink
       to={to}

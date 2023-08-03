@@ -11,16 +11,16 @@ const Header = () => {
         </div>
         <ul className='flex flex-1 gap-5 justify-end text-3xl'>
           <li>
-            <Navlink to={'/'} text={'Home'} />
+            <Navlink to='/' text='Home' />
           </li>
           <li>
-            <Navlink to={'/friends'} text={'Friends'} />
+            <Navlink to='/friends' text='Friends' />
           </li>
           <li>
-            <Navlink to={'/about'} text={'About'} />
+            <Navlink to='/about' text='About' />
           </li>
           <li>
-            <Navlink to={'/contact'} text={'Contact'} />
+            <Navlink to='/contact' text='Contact' />
           </li>
         </ul>
       </nav>
