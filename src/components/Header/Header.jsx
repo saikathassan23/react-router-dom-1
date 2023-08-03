@@ -1,4 +1,5 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import Navlink from '../Navlink/Navlink';
 const Header = () => {
   return (
     <div className='shadow-lg'>
@@ -10,16 +11,16 @@ const Header = () => {
         </div>
         <ul className='flex flex-1 gap-5 justify-end text-3xl'>
           <li>
-            <Link to='/'>Home</Link>
+            <Navlink to={'/'} text={'Home'} />
           </li>
           <li>
-            <Link to='/friends'>Friends</Link>
+            <Navlink to={'/friends'} text={'Friends'} />
           </li>
           <li>
-            <Link to='/about'>About</Link>
+            <Navlink to={'/about'} text={'About'} />
           </li>
           <li>
-            <Link to='/contact'>Contact</Link>
+            <Navlink to={'/contact'} text={'Contact'} />
           </li>
         </ul>
       </nav>
